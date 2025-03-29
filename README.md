@@ -18,6 +18,9 @@
 > Edit or Delete User
 <li> Each user has the option to edit or delete their details.
 <li> A success alert message is shown when a user is successfully deleted.
+<br></br>
+
+> Responsive Design
 
 ### Tech Used
 

@@ -46,7 +46,7 @@ const EditUser = () => {
     
   return (
     <>
-          <h2>Edit User Detail</h2>
+          <h2>Edit <Link to="/">User Detail</Link></h2>
 
           <form onSubmit={handleSubmit} className='editForm'>
             <input className='editInput' type='text' name='firstName' onChange={handleUserEdit} value={userDetail.firstName} placeholder='First Name' />

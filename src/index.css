@@ -1,3 +1,10 @@
 body {
   margin: 1rem 5rem;
 }
+
+
+@media screen and (max-width: 550px) {
+  body{
+    margin: 1rem;
+  }
+}

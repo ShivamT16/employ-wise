@@ -7,6 +7,7 @@ import Users from './Pages/Users';
 import Login from './Pages/Login';
 import EditUser from './Pages/EditUser';
 import { UserProvider } from './Context/UserContext';
+import ErrorPage from './Pages/ErrorPage';
 
 const appRouter = createBrowserRouter([
   {
@@ -16,7 +17,8 @@ const appRouter = createBrowserRouter([
     { path: "/", element: <Users /> },
     { path: "/edit", element: <EditUser /> },
     { path: "/login", element: <Login /> }
-    ]
+    ],
+    errorElement: <ErrorPage />
   }
 ])
 
