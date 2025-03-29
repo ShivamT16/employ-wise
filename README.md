@@ -1,5 +1,7 @@
 ## EmployWise Assignment
 
+#### Live Link- https://employ-wise-phi-rust.vercel.app/
+
 ### Features
 
 > Authentication
@@ -23,3 +25,14 @@
 <li> Context API
 <li> Session Storage
 <li> React Router
+
+### How to install and run locally ?
+
+```
+$ git clone https://github.com/ShivamT16/employ-wise.git
+$ cd employ-wise
+$ npm install
+$ npm start
+```
+### Any queries?
+mail to- shivamtripathi385@gmail.com
