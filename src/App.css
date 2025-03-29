@@ -1,3 +1,56 @@
 .App {
   text-align: center;
 }
+
+.header{
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+.navLink{
+  text-decoration: none;
+  font-size: x-large;
+  color: rgb(76, 68, 68);
+  font-weight: 600;
+  margin: 0rem 2rem;
+}
+
+.userList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 1rem 0rem;
+}
+.userImg{
+  height: 9rem;
+}
+
+.loginForm{
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+.btn{
+  padding: 4px 10px;
+  margin: 0px 5px ;  
+  cursor: pointer;
+}
+.note{
+  width: 14rem;  
+}
+
+.editForm{
+  border: 1px solid black;
+  border-radius: 2rem;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem;
+}
+.editInput{
+  font-size: small;
+  padding: 4px;
+}

@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.4.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -37,12 +38,12 @@
     ]
   },
   "devDependencies": {
-    "jest": "^27.4.3",
-    "jest-watch-typeahead": "^1.0.0",
     "babel-jest": "^27.4.2",
     "babel-preset-react-app": "^10.0.1",
-    "identity-obj-proxy": "^3.0.0",
     "eslint": "^8.3.0",
-    "eslint-config-react-app": "^7.0.1"
+    "eslint-config-react-app": "^7.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.4.3",
+    "jest-watch-typeahead": "^1.0.0"
   }
 }

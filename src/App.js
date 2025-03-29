@@ -1,13 +1,12 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import Login from './Pages/Login';
-import Users from './Pages/Users';
+import Header from './Pages/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1> Hello </h1>
-      {/* <Login /> */}
-      <Users />
+      <Header />
+      <Outlet />
     </div>
   );
 }
