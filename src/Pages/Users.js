@@ -45,7 +45,7 @@ const Users = () => {
     )
 
     return (
-    <div>
+    <>
         <h2> Users </h2>
 
         {/* user searchBar  */}
@@ -69,7 +69,7 @@ const Users = () => {
         <button className='btn' onClick={() => setPageNumber(1)} >1</button>
         <button className='btn' onClick={() => setPageNumber(2)} >2</button>
 
-    </div>
+    </>
   )
 }
 

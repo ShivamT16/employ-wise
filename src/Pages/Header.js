@@ -16,10 +16,12 @@ const Header = () => {
 
   return (
     <nav className='header'>
+
         <NavLink style={getActiveStyle} className='navLink' to="/" >Users</NavLink>
         <NavLink style={getActiveStyle} className='navLink' to="/edit" >EditUsers</NavLink>
         {isLoggedIn ? <NavLink className='navLink' to="/login" onClick={handleLogOut}>Logout</NavLink> :
         <NavLink style={getActiveStyle} className='navLink' to="/login" >Login</NavLink>}
+        
     </nav>
   )
 }
